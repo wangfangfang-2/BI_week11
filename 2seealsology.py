@@ -98,7 +98,7 @@ model = Word2Vec(window = 4, sg = 1, hs = 0,
 model.build_vocab(random_walks, progress_per=2)
 model.train(random_walks, total_examples = model.corpus_count, epochs=20, report_delay=1)
 print(model)
-# 输出和EastCarolina相似的球队
+# 输出和critical illness insurance相似
 print(model.similar_by_word('critical illness insurance'))
 
 
