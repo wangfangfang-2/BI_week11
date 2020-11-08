@@ -118,6 +118,6 @@ print(model.similar_by_word('critical illness insurance'))
 #     for i, word in enumerate(word_list):
 #         plt.annotate(word, xy=(result[i, 0], result[i, 1]))
 #     plt.show()
-# # 将所有的球队embedding进行绘制
+
 # plot_nodes(model.wv.vocab)
 
